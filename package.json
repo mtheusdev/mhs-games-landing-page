@@ -1,7 +1,7 @@
 {
   "name": "mhs-games-landing-page",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "homepage": "https://mtheusdev.github.io/mhs-games-landing-page",
   "scripts": {
