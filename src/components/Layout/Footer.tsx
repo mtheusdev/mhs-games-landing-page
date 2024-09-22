@@ -26,7 +26,7 @@ export default function Footer() {
           </Typography>
           <Link
             target="_blank"
-            href="https://play.google.com/store/apps/developer?id=MHSTech"
+            href="https://play.google.com/store/apps/dev?id=7748561045371711792"
             sx={{
               ":hover": {
                 transform: "scale(1.05)",
