@@ -3,9 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://mtheusdev.github.io/mhs-games-landing-page",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "deploy-gh-pages": "gh-pages -d dist",
+    "build-and-deploy": "pnpm build && pnpm deploy-gh-pages",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -14,6 +17,7 @@
     "@emotion/styled": "^11.13.0",
     "@mui/icons-material": "^6.1.1",
     "@mui/material": "^6.1.1",
+    "gh-pages": "^6.1.1",
     "i": "^0.3.7",
     "lottie-react": "^2.4.0",
     "react": "^18.3.1",
