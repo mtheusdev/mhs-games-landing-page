@@ -1,5 +1,5 @@
 import {
-  createBrowserRouter,
+  createHashRouter,
   createRoutesFromElements,
   Route,
 } from "react-router-dom";
@@ -13,7 +13,7 @@ const RedirectToAdsTxt = () => {
 };
 
 function AppRoutes() {
-  const router = createBrowserRouter(
+  const router = createHashRouter(
     createRoutesFromElements(
       <Route>
         <Route element={<Layout />}>
